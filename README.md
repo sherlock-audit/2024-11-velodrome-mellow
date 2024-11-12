@@ -5,3 +5,24 @@
 - [Read for more details](https://docs.sherlock.xyz/audits/watsons)
 
 # Audit scope
+
+```
+src/
+├── Core.sol
+├── libraries/
+│   ├── PositionLibrary.sol
+│   └── PositionValue.sol
+├── modules/
+│   └── strategies/
+│   │   ├── PulseStrategyModule.sol
+│   └── velo/
+│       ├── VeloAmmModule.sol
+│       └── VeloDepositWithdrawModule.sol
+├── oracles/
+│   └── VeloOracle.sol
+└── utils/
+    ├── DefaultAccessControl.sol
+    ├── LpWrapper.sol
+    ├── VeloDeployFactory.sol
+    └── VeloFarm.sol
+```
